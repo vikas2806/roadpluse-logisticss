@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RoadPulse Logistics — PAN-India Freight & Delivery</title>
+<meta name="description" content="RoadPulse Logistics moves freight across India with real-time tracking, FTL/PTL, parcel delivery, warehousing and express logistics.">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="30" height="30">
+          <circle cx="8" cy="30" r="3.5" fill="currentColor"/>
+          <circle cx="32" cy="10" r="3.5" fill="currentColor"/>
+          <path d="M8 30 C 14 30, 16 10, 32 10" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-name">RoadPulse<span class="brand-sub">Logistics</span></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#services">Services</a>
+      <a href="#fleet">Fleet</a>
+      <a href="#track">Track shipment</a>
+      <a href="#why">Why us</a>
+      <a href="#quote">Get a quote</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#quote" class="btn btn-accent nav-cta">Get a quote</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="hero-kicker">Freight & delivery, mapped across India</p>
+      <h1>Every shipment leaves<br>a pulse. We follow it<br>door to door.</h1>
+      <p class="hero-lead">RoadPulse moves goods for manufacturers, retailers and e-commerce
+        brands across India — with GPS-tracked vehicles, digital booking and a network
+        built to hit the delivery window you promised your customer.</p>
+      <div class="hero-actions">
+        <a href="#quote" class="btn btn-accent">Get a quote</a>
+        <a href="#track" class="btn btn-ghost">Track a shipment</a>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>28</dt><dd>states served</dd></div>
+        <div><dt>1,200+</dt><dd>vehicles on road</dd></div>
+        <div><dt>99.2%</dt><dd>on-time rate</dd></div>
+      </dl>
+    </div>
+
+    <div class="hero-map" aria-hidden="true">
+  
+      <svg viewBox="0 0 420 460" width="100%" height="100%">
+        <path id="routePath" d="M60 420 C 40 340, 140 320, 120 250 S 260 190, 230 130 S 340 90, 360 40"
+              fill="none" stroke="#2C3E52" stroke-width="2" stroke-dasharray="2 8" stroke-linecap="round"/>
+        <circle cx="60" cy="420" r="6" fill="#F2A93B"/>
+        <circle cx="120" cy="250" r="4" fill="#8FA3B8"/>
+        <circle cx="230" cy="130" r="4" fill="#8FA3B8"/>
+        <circle cx="360" cy="40" r="6" fill="#F2A93B"/>
+        <circle r="5" fill="#F2A93B" class="pulse-dot">
+          <animateMotion dur="4.5s" repeatCount="indefinite"
+            path="M60 420 C 40 340, 140 320, 120 250 S 260 190, 230 130 S 340 90, 360 40"/>
+        </circle>
+        <text x="66" y="440" class="map-label">Chennai</text>
+        <text x="330" y="30" class="map-label">Delhi</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section id="services" class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What we move, and how</h2>
+      <p>Five services built around one goal — the shipment arrives when you said it would.</p>
+    </div>
+
+    <div class="service-list">
+      <article class="service-row">
+        <h3>Full Truck Load (FTL)</h3>
+        <p>Dedicated trucks for bulk consignments that need to move fast, direct, without shared cargo space.</p>
+      </article>
+      <article class="service-row">
+        <h3>Part Truck Load (PTL)</h3>
+        <p>Pay for the space you use. Smaller loads share a vehicle on optimised, cost-effective routes.</p>
+      </article>
+      <article class="service-row">
+        <h3>Parcel delivery</h3>
+        <p>Door-to-door delivery for individual parcels and e-commerce orders, tracked from pickup to doorstep.</p>
+      </article>
+      <article class="service-row">
+        <h3>Warehousing</h3>
+        <p>Short and long-term storage across our distribution hubs, with inventory visibility built in.</p>
+      </article>
+      <article class="service-row">
+        <h3>Express logistics</h3>
+        <p>Time-critical shipments prioritised on the fastest available route, with live status updates.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+<section id="why" class="section section-tinted">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Why businesses stay with RoadPulse</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature">
+        <h3>Real-time GPS tracking</h3>
+        <p>Know exactly where a shipment is, at any point in the journey — no phone calls needed.</p>
+      </div>
+      <div class="feature">
+        <h3>PAN-India network</h3>
+        <p>Warehouses, transport hubs and distribution centers reaching every major state.</p>
+      </div>
+      <div class="feature">
+        <h3>Transparent, affordable pricing</h3>
+        <p>Quotes based on load and route, with no hidden charges added later.</p>
+      </div>
+      <div class="feature">
+        <h3>Digital booking & payments</h3>
+        <p>Book a shipment and pay online in minutes — no paperwork, no waiting.</p>
+      </div>
+      <div class="feature">
+        <h3>Route optimisation</h3>
+        <p>Every trip is planned for the shortest safe route, cutting cost and delivery time.</p>
+      </div>
+      <div class="feature">
+        <h3>Support when you need it</h3>
+        <p>A team that answers — before, during and after every delivery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="fleet" class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>A fleet sized for the job</h2>
+      <p>From a single parcel to a full container load.</p>
+    </div>
+    <div class="fleet-grid">
+      <div class="fleet-card">
+        <div class="fleet-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 40" width="52" height="34"><rect x="2" y="14" width="34" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M36 20h14l8 8v2H36z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="34" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="46" cy="34" r="4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Mini trucks</h3>
+        <p>Last-mile and city deliveries, quick to load and manoeuvre.</p>
+      </div>
+      <div class="fleet-card">
+        <div class="fleet-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 40" width="52" height="34"><rect x="2" y="10" width="44" height="20" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M46 16h12l4 6v6H46z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="34" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="52" cy="34" r="4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Standard trucks</h3>
+        <p>The backbone of PTL and regional FTL routes.</p>
+      </div>
+      <div class="fleet-card">
+        <div class="fleet-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 40" width="52" height="34"><rect x="2" y="8" width="38" height="22" rx="1" fill="none" stroke="currentColor" stroke-width="2"/><line x1="15" y1="8" x2="15" y2="30" stroke="currentColor" stroke-width="1.5"/><line x1="28" y1="8" x2="28" y2="30" stroke="currentColor" stroke-width="1.5"/><path d="M40 14h12l6 6v8H40z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="34" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="48" cy="34" r="4" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3>Container vehicles</h3>
+        <p>Bulk, long-haul freight moved securely across states.</p>
+      </div>
+      <div class="fleet-card">
+        <div class="fleet-icon" aria-hidden="true">
+          <svg viewBox="0 0 64 40" width="52" height="34"><rect x="4" y="12" width="40" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M44 18h10l6 6v6H44z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="32" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="50" cy="32" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="10" cy="20" r="1.6" fill="currentColor"/></svg>
+        </div>
+        <h3>GPS-enabled vehicles</h3>
+        <p>Fitted with live tracking for full-journey visibility.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="track" class="section section-tinted">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Track a shipment</h2>
+      <p>Enter a tracking ID to see its current status. Try <code>RP10234</code>, <code>RP58821</code> or <code>RP93012</code>.</p>
+    </div>
+
+    <div class="track-box">
+      <form id="trackForm" class="track-form">
+        <label for="trackingId" class="sr-only">Tracking ID</label>
+        <input type="text" id="trackingId" name="trackingId" placeholder="e.g. RP10234" autocomplete="off">
+        <button type="submit" class="btn btn-accent">Track</button>
+      </form>
+      <div id="trackResult" class="track-result" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>What shippers say</h2>
+    </div>
+    <div class="testimonial-grid">
+      <blockquote class="testimonial">
+        <p>“We moved our entire festive-season dispatch through RoadPulse. Not one late delivery across three states.”</p>
+        <cite>Warehouse Manager, e-commerce retailer</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>“The live tracking means my customers stop calling me asking where their order is. That alone was worth switching.”</p>
+        <cite>Owner, wholesale distributor</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>“PTL pricing finally made sense for our smaller shipments. Booking online takes minutes.”</p>
+        <cite>Operations lead, manufacturing unit</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUOTE / CONTACT FORM ============ -->
+<section id="quote" class="section section-tinted">
+  <div class="wrap quote-grid">
+    <div class="quote-copy">
+      <h2>Get a shipping quote</h2>
+      <p>Tell us what's moving and where. We'll get back with a rate and a pickup window — usually within a working day.</p>
+      <ul class="quote-points">
+        <li>No obligation, no hidden fees</li>
+        <li>Quotes for FTL, PTL and parcel</li>
+        <li>Pickup available across PAN-India</li>
+      </ul>
+    </div>
+
+    <form id="quoteForm" class="quote-form" novalidate>
+      <div class="form-row">
+        <label for="qName">Full name</label>
+        <input type="text" id="qName" name="qName" required>
+        <span class="form-error" data-error-for="qName"></span>
+      </div>
+      <div class="form-row">
+        <label for="qPhone">Phone number</label>
+        <input type="tel" id="qPhone" name="qPhone" required>
+        <span class="form-error" data-error-for="qPhone"></span>
+      </div>
+      <div class="form-row two-col">
+        <div>
+          <label for="qPickup">Pickup location</label>
+          <input type="text" id="qPickup" name="qPickup" required>
+          <span class="form-error" data-error-for="qPickup"></span>
+        </div>
+        <div>
+          <label for="qDrop">Drop location</label>
+          <input type="text" id="qDrop" name="qDrop" required>
+          <span class="form-error" data-error-for="qDrop"></span>
+        </div>
+      </div>
+      <div class="form-row">
+        <label for="qLoad">Load type</label>
+        <select id="qLoad" name="qLoad">
+          <option value="FTL">Full Truck Load (FTL)</option>
+          <option value="PTL">Part Truck Load (PTL)</option>
+          <option value="Parcel">Parcel delivery</option>
+          <option value="Warehousing">Warehousing</option>
+          <option value="Express">Express logistics</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label for="qMessage">Message (optional)</label>
+        <textarea id="qMessage" name="qMessage" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-accent btn-block">Request quote</button>
+      <p id="quoteConfirm" class="form-confirm" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer id="contact" class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-name light">RoadPulse<span class="brand-sub">Logistics</span></span>
+      <p>Safe, fast and affordable freight movement across India.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick links</h4>
+      <a href="#services">Services</a>
+      <a href="#fleet">Fleet</a>
+      <a href="#track">Track shipment</a>
+      <a href="#quote">Get a quote</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#services">Full Truck Load</a>
+      <a href="#services">Part Truck Load</a>
+      <a href="#services">Parcel delivery</a>
+      <a href="#services">Warehousing</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:+911234567890">+91 12345 67890</a>
+      <a href="mailto:hello@roadpulselogistics.in">hello@roadpulselogistics.in</a>
+      <span class="footer-text">Registered across India</span>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>&copy; <span id="year"></span> RoadPulse Logistics. College project demo — not a real courier service.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
